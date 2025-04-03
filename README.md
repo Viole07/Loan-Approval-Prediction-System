@@ -74,54 +74,6 @@ Navigate to: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 ---
 
-## 📸 Screenshots
-
-### 🟢 1. Loan Form Loaded in Browser
-The home page is rendered with the loan form and dark mode toggle.
-
-![Loan UI](screenshots/loan-ui.png)
-
----
-
-### 🟣 2. Form Submitted
-User fills the form with sample input and submits for prediction.
-
-![Form Input](screenshots/form-submitted.png)
-
----
-
-### ⏳ 3. Loader Animation Appears
-A loading spinner shows while backend processes prediction.
-
-![Loading Spinner](screenshots/loading.png)
-
----
-
-### 🖼️ 4. Prediction Result Displayed
-Loan is either Approved ✅ or Rejected ❌ with confidence score.
-
-![Result](screenshots/prediction-result.png)
-
----
-
-## 🌍 Deployment
-
-### ✅ Recommended: Deploy to [Render](https://render.com)
-
-1. Push your repo to GitHub
-2. Sign in at [https://render.com](https://render.com)
-3. Click **"New Web Service"**
-4. Connect your GitHub repo
-5. Configure:
-   - **Environment**: Python 3.10+
-   - **Build Command**: `pip install -r requirements.txt`
-   - **Start Command**: `python app.py`
-6. Hit Deploy 🚀
-
-🎉 Your Flask app will be live on a public URL.
-
----
-
 ## 🔐 .gitignore Example
 ```gitignore
 __pycache__/
