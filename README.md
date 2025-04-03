@@ -52,25 +52,47 @@ git clone https://github.com/Viole07/Loan-Approval-Prediction-System.git
 cd Loan-Approval-Prediction-System/Flask
 ```
 
-### 2. Create & Activate Virtual Environment
-```bash
-python -m venv venv
-venv\Scripts\activate        # Windows
-# OR
-source venv/bin/activate     # macOS/Linux
-```
-
-### 3. Install Required Packages
+### 2. Install Required Packages
 ```bash
 pip install flask scikit-learn numpy joblib
 ```
 
-### 4. Run the Flask App
+### 3. Run the Flask App
 ```bash
 python app.py
 ```
 
 Navigate to: [http://127.0.0.1:5000](http://127.0.0.1:5000)
+
+---
+
+## 📸 Screenshots
+
+### 🟡 1. Rejection Form Filled
+Loan form is filled with values likely to result in a rejection.
+
+![Rejection Form](screenshots/rejection-form.png)
+
+---
+
+### ❌ 2. Rejected Prediction Output
+The loan is rejected with a displayed confidence score.
+
+![Rejected](screenshots/rejected-result.png)
+
+---
+
+### 🟢 3. Acceptance Form Filled
+Form updated with values more likely to be approved.
+
+![Acceptance Form](screenshots/acceptance-form.png)
+
+---
+
+### ✅ 4. Approved Prediction Output
+The loan is approved along with a confidence percentage.
+
+![Approved](screenshots/approved-result.png)
 
 ---
 
@@ -92,3 +114,4 @@ MIT License — free to use, modify, and distribute.
 ---
 
 Built with ❤️ by [@Viole07](https://github.com/Viole07)
+
